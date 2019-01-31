@@ -10,8 +10,6 @@ namespace MusicalInstrumentBuilderPattern
     {
         protected MusicalInstrument instrument;
 
-        public MusicalInstrument GetInstrument { get { return instrument; } }
-
         public abstract void SetWoodTypeForBody();
         public abstract void SetWoodTypeForNeck();
         public abstract void SetNumberOfStrings();
