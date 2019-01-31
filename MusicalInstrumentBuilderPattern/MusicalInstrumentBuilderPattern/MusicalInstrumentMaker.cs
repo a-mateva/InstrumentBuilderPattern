@@ -8,6 +8,7 @@ namespace MusicalInstrumentBuilderPattern
 {
     public class MusicalInstrumentMaker
     {
+        //Uses the builder's methods to create the instrument
         public void CreateInstrument(MusicalInstrumentBuilder builder)
         {
             builder.SetNumberOfStrings();

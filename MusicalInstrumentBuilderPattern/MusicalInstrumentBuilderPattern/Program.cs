@@ -23,6 +23,7 @@ namespace MusicalInstrumentBuilderPattern
             maker.CreateInstrument(builder);
             builder.DisplayProperties();
 
+            // Waits for user input
             Console.ReadKey(true);
         }
     }

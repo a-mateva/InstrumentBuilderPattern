@@ -8,8 +8,10 @@ namespace MusicalInstrumentBuilderPattern
 {
     public class GuitarBuilder : MusicalInstrumentBuilder
     {
+        // Constructor
         public GuitarBuilder()
         {
+            // Makes a new instance of MusicalInstrument
             instrument = new MusicalInstrument();
             instrument.Type = "Guitar";
         }
